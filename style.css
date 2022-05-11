@@ -1,7 +1,3 @@
-/* html {
-  margin: 0;
-  padding: 0;
-} */
 body {
   min-height: 98vh;
   background-image: url(./images/reference-image.png);
@@ -20,7 +16,7 @@ footer {
   text-align: center;
 }
 header {
-  padding: 2.52%;
+  padding: 2.52% 0 2.52% 0;
   text-align: center;
   margin: auto;
 }
@@ -33,15 +29,18 @@ header {
   margin: auto;
   border: 0.8rem solid #000000;
   margin-top: 2.5%;
-  background-color: #e6d5d2cb;
+  background-color: #f8e7e4cb;
+  box-sizing: border-box;
 }
 form {
-  background-color: #e6d5d2cb;
+  background-color: #f8e7e4cb;
   max-width: 60%;
   margin: auto;
   padding: 0.1%;
   padding-bottom: 2.9%;
   margin-bottom: 2%;
+  border: #f8e7e42f solid 1px;
+  box-sizing: border-box;
 }
 form p {
   font-size: 1.13rem;
@@ -67,8 +66,10 @@ input {
   min-height: 2.5rem;
   width: 51%;
   margin: auto;
-  font-size: 1.45rem;
+  font-size: 1.1rem;
   padding: 1%;
+  padding-right: 0%;
+  resize: vertical;
 }
 form button {
   box-sizing: border-box;
