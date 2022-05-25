@@ -1,3 +1,8 @@
+# Live Version
+
+My solution in live version: https://rami24t.github.io/uib-data-stylingforms-Rami24t/
+
+
 # Basic Data Exercises
 
 ## Styling Forms
